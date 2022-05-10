@@ -1,5 +1,5 @@
 import React from 'react';
-import NewBooks from '../../assets/newbook.jpg';
+import NewBooks from '../../assets/newbook1.jpg';
 import UsedBooks from '../../assets/oldbook.jpg';
 import './styles.scss';
 
@@ -13,7 +13,7 @@ const Directory = (props) => {
             backgroundImage: `url(${NewBooks})`,
           }}
         >
-          <a href="jklkl">NewBooks</a>
+          <a>NewBooks</a>
         </div>
         <div
           className="item"
@@ -21,7 +21,7 @@ const Directory = (props) => {
             backgroundImage: `url(${UsedBooks})`,
           }}
         >
-          <a href="hjk"> Used Books </a>
+          <a> Used Books </a>
         </div>
       </div>
     </div>
