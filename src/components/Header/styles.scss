@@ -1,0 +1,25 @@
+.header {
+    height: 6.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.wrap {
+    position: relative;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 34.6rem;
+    position: absolute;
+    right: 50%; left:10px; top: 0.1px;
+    -web-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    transform: translateY(-10%);
+}
+
+img {
+    display: block;
+    width: 87%;
+    margin: 0;
+}
